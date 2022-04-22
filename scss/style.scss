@@ -1,0 +1,83 @@
+@import "./config";
+@import "./reset";
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $background-color;
+    font-family: $font;
+    padding: 71px 0;
+}
+
+.card{
+    width: 327px;
+    margin: auto;
+    background-color: white;
+    height: 567px;
+    border-radius: 20px;
+
+    &__img{
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+
+    &__content{
+        text-align: center;
+    }
+
+    &__title{
+        font-size: 22px;
+    }
+
+    &__copy{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    &__container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #F7F9FF;
+        width: 279px;
+        height: 81px;
+        margin: 24px auto;
+        border-radius: 11px;
+
+        .card__p{
+            margin: 0;
+        }
+
+        .card__p--bold{
+            font-weight: bold;
+        }
+    }
+
+    .btn{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 900;
+        width: 279px;
+        padding: 15px 0;
+        border-radius: 11px;
+        margin: auto;
+    }
+
+    .btn--primary{
+        color: white;
+        background-color: #382AE1;
+        width: 279px;
+        padding: 15px 0;
+        border-radius: 11px;
+    }
+
+    .btn--secondary{
+        color: #717FA6;
+    }
+
+}
