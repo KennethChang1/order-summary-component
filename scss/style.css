@@ -247,6 +247,13 @@ body {
   padding: 71px 0;
 }
 
+@media screen and (min-width: 700px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+  }
+}
+
 .card {
   width: 327px;
   margin: auto;
